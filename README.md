@@ -1,1 +1,1 @@
-README
+A D3.js project enabling side-by-side comparison of county maps for US Presidential primary and general elections
