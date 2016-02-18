@@ -1,0 +1,77 @@
+{	
+	"state": "New Hampshire",
+	"counties": [
+		{
+			"geoid": "05000US33007",
+			"name": "Coos County",
+			"population": 33055,
+			"results": {
+				"res":{
+					"dem":{
+						"total": 7404,
+						"Barack Obama": 2124,
+						"Hillary Clinton": 3132,
+						"John Edwards": 1600,
+						"Bill Richardson": 346,
+						"Dennis Kucinich": 43,
+						"Other": 159
+					},
+					"rep":{
+
+					},
+					"gen":{
+						
+					}
+				}
+			}
+		},
+		{
+			"geoid": "05000US33009",
+			"name": "Grafton County",
+			"population": 89118,
+			"results": {
+				"res":{
+					"dem":{
+						"total": 21684,
+						"Barack Obama": 9794,
+						"Hillary Clinton": 6864,
+						"John Edwards": 3398,
+						"Bill Richardson": 1074,
+						"Dennis Kucinich": 310,
+						"Other": 244
+					},
+					"rep":{
+
+					},
+					"gen":{
+						
+					}
+				}
+			}
+		},
+		{
+			"geoid": "05000US33003",
+			"name": "Carroll County",
+			"population": 47818,
+			"results": {
+				"res":{
+					"dem":{
+						"total": 10866,
+						"Barack Obama": 4357,
+						"Hillary Clinton": 3738,
+						"John Edwards": 1809,
+						"Bill Richardson": 670,
+						"Dennis Kucinich": 182,
+						"Other": 110
+					},
+					"rep":{
+
+					},
+					"gen":{
+						
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "State Postal": "AK",
+    "FIPS Code": 0,
+    "County Name": "Alaska",
+    "TOTAL VOTES CAST": 300495,
+    "FirstOne": "Barack",
+    "LastOne": "Obama",
+    "VotesOne": 122640,
+    "IdOne": 1918,
+    "FirstTwo": "Mitt",
+    "LastTwo": "Romney",
+    "VotesTwo": 164676,
+    "IdTwo": 893,
+    "FirstThree": "Gary",
+    "LastThree": "Johnson",
+    "VotesThree": 7392,
+    "IDThree": 31708,
+    "FirstFour": "Jill",
+    "LastFour": "Stein",
+    "VotesFour": 2917,
+    "IdFour": 895
+  }
+]
