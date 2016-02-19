@@ -1,11 +1,12 @@
+html, body{
+	height: 100%;
+}
 body{
 	background: #FFFFFF;
 	font-family: 'Varela Round', sans-serif;
 }
-h1{
-	font-size: 18px;
-	margin-top: -5px;
-	text-align: center;
+a:hover, a:visited{
+	color:#337ab7;
 }
 select{
 	cursor: pointer;
@@ -27,12 +28,13 @@ div.header{
 	font-size: 16px;
 	height: auto;
 	line-height: 35px;
-	padding: 0 0 0 20px;
+	padding: 0 0 0 30px;
 }
 
 /* MAP AREAS */
 div#maincon{
-	min-width: 600px;
+	min-width: 0px;
+	padding-bottom: 30px;
 	width: 100%;
 }
 div.map{
@@ -44,7 +46,7 @@ div.map{
 div#map1{
 	border-right: 1px solid #EEE;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
 	div.map{
 		border: 0;
 	  width: 100%; 
@@ -100,7 +102,7 @@ select#map-el-select-2, select#map-st-select-1{
 .john-edwards{fill: teal; background: teal;}
 .dennis-kucinich{fill: royalblue; background: royalblue;}
 .bill-richardson{fill: cornflowerblue; background: cornflowerblue;}
-.john-mccain{fill: darkred; background: darkred;}
+.john-mccain{fill: #B22222; background: #B22222;}
 .mitt-romney{fill: indianred; background: indianred;}
 .mike-huckabee, .rick-santorum{fill: crimson; background: crimson;}
 .ron-paul{fill: firebrick; background: firebrick;}
@@ -165,16 +167,64 @@ table.county-results td.cand-name{
 	text-align: left;
 }
 
+/* ABOUT */
+.text{
+	display: none;
+	margin-left: 8%;
+	padding-bottom: 30px;
+	width: 84%;
+}
+@media screen and (max-width: 900px) {
+	.text{
+		margin-left:4%;
+		width: 92%;
+	}
+}
+.text h1{
+	border-bottom: 1px solid #EEE;
+	color: crimson;
+	font-size: 40px;
+	margin: 35px 0 25px;
+	text-align: left;
+}
+.text h2{
+	color: steelblue;
+	font-size: 28px;
+	margin: 35px 0 15px;
+}
+.text p{
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+}
+.text p:last-child{
+	font-size: 22px;
+	margin-top: 30px;
+	text-align: center;
+}
+
 
 /* FOOTER */
 .footer{
 	background: #333;
 	clear: both;
 	color: #FFF;
-	height: 80px;
-	line-height: 80px;
-	margin-top: 30px;
+	margin-top: 0px;
 	text-align: center;
+}
+.footer, .push{
+	height: 125px; 
+}
+.footer p{
+	font-size: 16px;
+	line-height: 125px;
+	margin-bottom: 0;
+}
+.non-footer { 
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -125px; 
 }
 
 

@@ -218,6 +218,8 @@ function buildSvg(mapId, stateProj, counties, votes, state, year){
 function resizeSvg(pathOne, pathTwo, w){
 	svgone.selectAll("path").attr({"d": pathOne, "width": globalSxOne});
 	svgtwo.selectAll("path").attr({"d": pathTwo, "width": globalSxTwo});
+	svgone.attr({"width": w});
+	svgtwo.attr({"width": w});
 	//svgone.selectAll("circle").attr({"cx": w/2});
 }
 
